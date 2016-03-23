@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GlobalCbtHook", "GlobalCbtHook\GlobalCbtHook.vcproj", "{A558485A-58F7-4748-A0BE-EE1BB01732F5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalHooksTest", "GlobalHooksTest\GlobalHooksTest.csproj", "{DD7A6D91-1614-4B43-B61B-4BF28C476415}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransparencyMenu", "TransparencyMenu\TransparencyMenu.csproj", "{7B422764-FFA5-4CF8-AAA4-9C63C7FD9454}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Documentation = Documentation
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A558485A-58F7-4748-A0BE-EE1BB01732F5}.Debug.ActiveCfg = Debug|Win32
+		{A558485A-58F7-4748-A0BE-EE1BB01732F5}.Debug.Build.0 = Debug|Win32
+		{A558485A-58F7-4748-A0BE-EE1BB01732F5}.Documentation.ActiveCfg = Documentation|Win32
+		{A558485A-58F7-4748-A0BE-EE1BB01732F5}.Documentation.Build.0 = Documentation|Win32
+		{A558485A-58F7-4748-A0BE-EE1BB01732F5}.Release.ActiveCfg = Release|Win32
+		{A558485A-58F7-4748-A0BE-EE1BB01732F5}.Release.Build.0 = Release|Win32
+		{DD7A6D91-1614-4B43-B61B-4BF28C476415}.Debug.ActiveCfg = Debug|.NET
+		{DD7A6D91-1614-4B43-B61B-4BF28C476415}.Debug.Build.0 = Debug|.NET
+		{DD7A6D91-1614-4B43-B61B-4BF28C476415}.Documentation.ActiveCfg = Debug|.NET
+		{DD7A6D91-1614-4B43-B61B-4BF28C476415}.Documentation.Build.0 = Debug|.NET
+		{DD7A6D91-1614-4B43-B61B-4BF28C476415}.Release.ActiveCfg = Release|.NET
+		{DD7A6D91-1614-4B43-B61B-4BF28C476415}.Release.Build.0 = Release|.NET
+		{7B422764-FFA5-4CF8-AAA4-9C63C7FD9454}.Debug.ActiveCfg = Debug|.NET
+		{7B422764-FFA5-4CF8-AAA4-9C63C7FD9454}.Debug.Build.0 = Debug|.NET
+		{7B422764-FFA5-4CF8-AAA4-9C63C7FD9454}.Documentation.ActiveCfg = Debug|.NET
+		{7B422764-FFA5-4CF8-AAA4-9C63C7FD9454}.Documentation.Build.0 = Debug|.NET
+		{7B422764-FFA5-4CF8-AAA4-9C63C7FD9454}.Release.ActiveCfg = Release|.NET
+		{7B422764-FFA5-4CF8-AAA4-9C63C7FD9454}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
