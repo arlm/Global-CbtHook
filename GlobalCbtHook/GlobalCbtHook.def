@@ -1,4 +1,4 @@
-LIBRARY	SystemHookCore
+LIBRARY	GlobalCbtHook
 
 EXPORTS
 	InitializeCbtHook

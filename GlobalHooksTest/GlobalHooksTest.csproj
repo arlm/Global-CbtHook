@@ -108,7 +108,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>copy $(SolutionDir)Global-CbtHook\$(PlatformName)\$(ConfigurationName)\Global-CbtHook.dll $(TargetDir) /y /v</PreBuildEvent>
+    <PreBuildEvent>copy $(SolutionDir)GlobalCbtHook\$(PlatformName)\$(ConfigurationName)\GlobalCbtHook.dll $(TargetDir) /y /v</PreBuildEvent>
     <PostBuildEvent />
   </PropertyGroup>
 </Project>
